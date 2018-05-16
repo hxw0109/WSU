@@ -61,8 +61,11 @@ For easy management, we put all the important files on your desktop.
 - Right click on desktop and select `Git Bash Here`, you should see `Bash` window prompts.
 - In the prompted window, type:
 ```sh
-conda --version
+git clone https://github.com/hxw0109/WSU.git
+cd WSU
+ls
 ```
+- 
 
 
 
