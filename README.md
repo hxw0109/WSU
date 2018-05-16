@@ -5,7 +5,7 @@ The purpose of this project is to provide unified software dependency support fo
 Python 3 is used for the entirety term.
 
 
-## 1. Git Installation
+## 1. [Git](https://git-scm.com/) Installation
 
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
@@ -16,11 +16,11 @@ Git also provides Linux-like shell, Git Bash, to execute command easier than Win
 - Using default option when installing
 - Make sure 'Git Bash Here' is selected
 - After installation, you should have 'Git Bash' installed
-- Launch Git Bash, and in the prompted window, type:
+- Launch Git Bash, and in the prompted window, type
 ```sh
 git --version
 ```
-- You should see something like:
+- You should see something like
 ```sh
 git version 2.17.0.windows.1
 ```
