@@ -93,19 +93,28 @@ conda info --envs
 conda clean -tp
 ```
 
-### 2.4 Using Anaconda 
+### 2.4 Using `Anaconda`
 ```sh
 source activate wsu-adas
 ```
-- You should see:
 
-### 2.5 Launch Jupyter Notebook
+### 2.5 Launch `Jupyter Notebook`
 
 ```sh
 jupyter notebook
 ```
 
-### 2.6 Uninstalling 
+
+### 2.6 Miscs 
+- To quit `Jupyter Notebook` the environment:
+```sh
+`ctrl+c`
+```
+
+- To deactivate environment:
+```sh
+source deactivate wsu-adas
+```
 
 - To uninstall the environment:
 ```sh
