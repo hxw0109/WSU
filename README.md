@@ -11,14 +11,14 @@ Git is a free and open source distributed version control system designed to han
 
 Git also provides Linux-like shell, Git Bash, to execute command easier than Windows Command Line tool.
 
-### 1.1 [Download](https://git-scm.com/download/)
-- Download the version compatible to your operating system.
+### Setup Git
+- [Download](https://git-scm.com/download/) the version compatible to your operating system.
 - Using default option when installing
 - Make sure 'Git Bash Here' is selected
 - After installation, you should have 'Git Bash' installed
 - Launch Git Bash, and in the prompted window, type:
 ```sh
-Git --version
+git --version
 ```
 - You should see something like:
 ```sh
