@@ -56,18 +56,18 @@ Python 3.6.1 :: Anaconda custom (64-bit)
 ```
 
 ### 2.3 Configure Conda Environment
-For easy management, we put all the important files on your desktop.
-- Go to your Windows desktop, if your are using Mac, launch terminal and `cd` to your desktop.
-- Right click on desktop and select `Git Bash Here`, you should see `Bash` window prompts.
+- For easy management, we put all the important files on your desktop.
+    Go to your Windows desktop, if your are using Mac, launch terminal and `cd` to your desktop.
+    Right click on desktop and select `Git Bash Here`, you should see `Bash` window prompts.
 
-**Setup** the `wsu-adas` environment. 
+- **Setup** the `wsu-adas` environment. 
 ```sh
 git clone https://github.com/hxw0109/WSU.git
 cd WSU
 ls
 ```
 
-**Create** wsu-adas.  Running this command will create a new `conda` environment that is provisioned with all libraries you need to be successful in this program.
+- **Create** wsu-adas.  Running this command will create a new `conda` environment that is provisioned with all libraries you need to be successful in this program.
 ```
 conda env create -f environment.yml
 ```
@@ -81,22 +81,33 @@ with
     - https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.12.1-py3-none-any.whl
 ```
 
-**Verify** that the carnd-term1 environment was created in your environments:
+- **Verify** that the carnd-term1 environment was created in your environments:
 
 ```sh
 conda info --envs
 ```
 
-**Cleanup** downloaded libraries (remove tarballs, zip files, etc):
+- **Cleanup** downloaded libraries (remove tarballs, zip files, etc):
 
 ```sh
 conda clean -tp
 ```
 
-### 2.4 Uninstalling 
+### 2.4 Using Anaconda 
+```sh
+source activate wsu-adas
+```
+- You should see:
 
-To uninstall the environment:
+### 2.5 Launch Jupyter Notebook
 
+```sh
+jupyter notebook
+```
+
+### 2.6 Uninstalling 
+
+- To uninstall the environment:
 ```sh
 conda env remove -n wsu-adas
 ```
