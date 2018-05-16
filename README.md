@@ -29,8 +29,8 @@ git version 2.17.0.windows.1
 ### 2.1 Overview
 Using Anaconda consists of the following:
 
-1. Install `[anaconda]`(https://www.anaconda.com/download/) on your computer
-2. Create a new `[conda environment]`(http://conda.pydata.org/docs/using/envs.html) using this project
+1. Install [anaconda](https://www.anaconda.com/download/) on your computer
+2. Create a new [conda environment](http://conda.pydata.org/docs/using/envs.html) using this project
 3. Each time you wish to work, activate your `conda` environment
 
 ### 2.2 Download and Installation
