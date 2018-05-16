@@ -126,4 +126,9 @@ conda env remove -n wsu-adas
 
 
 ## Trouble Shooting
-
+###ffmpeg
+NOTE: If you don't have ffmpeg installed on your computer you'll have to install it for moviepy to work. If this is the case you'll be prompted by an error in the notebook. You can easily install ffmpeg by running the following in a code cell in the notebook.
+```sh
+import imageio
+imageio.plugins.ffmpeg.download()
+```
