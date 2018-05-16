@@ -65,9 +65,13 @@ git clone https://github.com/hxw0109/WSU.git
 cd WSU
 ls
 ```
-- 
 
+**Setup** the `wsu-adas` environment. 
 
+**Create** wsu-adas.  Running this command will create a new `conda` environment that is provisioned with all libraries you need to be successful in this program.
+```
+conda env create -f environment.yml
+```
 
 
 
